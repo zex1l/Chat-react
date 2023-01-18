@@ -1,0 +1,15 @@
+.home {
+    @apply py-14;
+
+    .homeWrapper {
+        @apply flex flex-col justify-center items-center;
+
+        .heading {
+        @apply text-3xl text-center;
+        }
+
+        .btn {
+            @apply mt-60 bg-zinc-50 w-64 h-12 text-black rounded-xl text-lg;
+        }
+    }
+}
