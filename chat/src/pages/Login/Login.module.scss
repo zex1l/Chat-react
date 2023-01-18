@@ -1,0 +1,19 @@
+.login {
+    @apply py-10;
+
+    .wrapperLogin {
+        @apply flex items-center justify-center flex-col;
+
+        .heading {
+            @apply text-3xl;
+        }
+
+        .form {
+            @apply mt-9 flex flex-col;
+
+            .inputForm {
+                @apply rounded-lg py-2 px-5 text-black active:outline-none;
+            }
+        }
+    }
+}

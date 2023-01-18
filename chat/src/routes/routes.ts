@@ -1,7 +1,7 @@
 import {FC} from 'react'
 
 import Home from "../pages/Home/Home"
-import Login from "../pages/Home/Login/Login"
+import Login from "../pages/Login/Login"
 
 
 export interface IRoute {
