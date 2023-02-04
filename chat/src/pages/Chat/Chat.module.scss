@@ -1,0 +1,19 @@
+.chat {
+    @apply py-7;
+
+    .chatInner {
+        @apply flex items-center justify-center flex-col;
+
+        .window {
+            @apply bg-white w-256 h-156 rounded-xl text-black p-5 overflow-y-scroll;
+
+            .userMessage {
+                @apply flex bg-slate-300 flex-col mb-8 rounded-lg py-2 px-4 w-fit;
+            }
+        }
+
+        .chatInput {
+            @apply flex justify-start w-10/12 mt-10;
+        }
+    }
+}
